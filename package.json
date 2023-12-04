@@ -1,7 +1,7 @@
 {
-  "name": "policy",
+  "name": "@rorylshanks/policy",
   "description": "Library for controlling access to resources with policy documents",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "keywords": [
     "acl",
@@ -19,6 +19,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakubknejzlik/node-policy.git"
+    "url": "git+https://github.com/rorylshanks/node-policy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rorylshanks/node-policy/issues"
+  },
+  "homepage": "https://github.com/rorylshanks/node-policy#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "",
+  "dependencies": {
+    "picomatch": "^3.0.1"
   }
 }
